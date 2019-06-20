@@ -37,8 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'polls.apps.PollsConfig',
-    'colegio.apps.ColegioConfig',
+    'Apps.polls',
+    'Apps.colegio',
+    'Apps.internet',
 ]
 
 MIDDLEWARE = [
